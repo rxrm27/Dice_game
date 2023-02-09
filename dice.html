@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    
+<div class="container">
+    <div class="title"><h2> Welcome to Roll a dice game</h2></div>
+
+     <!-- dice animation area -->
+    <div class=" dice">
+        This is dice area
+    </div>
+    
+ <!-- user wil interact with below buttons -->
+
+    <div class=" title actionarea">
+        <span><button  id="player1" onclick="diceRoll()">Player 1</button></span>
+        <span><button disabled id="player2" onclick="diceRoll()" >Player 2</button></span>
+        <span><button id="test" onclick="diceRoll()">test</button></span>
+
+    </div>
+
+   <!-- results will be shown here -->
+    <div class="result" id="results1">
+        
+    </div>
+</div>
+
+
+    <script type="text/javascript" src="dice_js.js"></script> 
+      
+
+</body>
+</html>

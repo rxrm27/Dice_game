@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    width: 500px;
+    flex-direction: column;
+}
+
+.title{
+    margin: auto;
+}
+
+
+.dice{
+       background-color: aqua;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    padding: 5% 5%;
+}
+
+.actionarea{
+    margin: auto;
+    padding: 20px;
+    
+}
+
+button{
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 200;
+    justify-content: center;
+    margin: 0;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;  
+}
+
+.result{
+    height: 20px;
+    background-color: azure;
+}
